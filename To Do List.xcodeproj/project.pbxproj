@@ -80,18 +80,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B34C829215D6FF100F0ABD8 /* Docs */ = {
+		2B34C829215D6FF100F0ABD8 /* docs */ = {
 			isa = PBXGroup;
 			children = (
 				2B34C82A215D701000F0ABD8 /* index.html */,
 			);
-			path = Docs;
+			path = docs;
 			sourceTree = "<group>";
 		};
 		2B8D4961215D563700156FD6 = {
 			isa = PBXGroup;
 			children = (
-				2B34C829215D6FF100F0ABD8 /* Docs */,
+				2B34C829215D6FF100F0ABD8 /* docs */,
 				2B8D496C215D563700156FD6 /* To Do List */,
 				2B8D4983215D563700156FD6 /* To Do ListTests */,
 				2B8D498E215D563700156FD6 /* To Do ListUITests */,
