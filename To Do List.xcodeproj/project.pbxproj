@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B34C827215D629C00F0ABD8 /* ArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B34C826215D629C00F0ABD8 /* ArchiveViewController.swift */; };
+		2B34C82B215D701000F0ABD8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 2B34C82A215D701000F0ABD8 /* index.html */; };
 		2B8D496E215D563700156FD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D496D215D563700156FD6 /* AppDelegate.swift */; };
 		2B8D4970215D563700156FD6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D496F215D563700156FD6 /* FirstViewController.swift */; };
 		2B8D4972215D563700156FD6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D4971215D563700156FD6 /* SecondViewController.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		2B34C826215D629C00F0ABD8 /* ArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveViewController.swift; sourceTree = "<group>"; };
+		2B34C82A215D701000F0ABD8 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		2B8D496A215D563700156FD6 /* To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8D496D215D563700156FD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B8D496F215D563700156FD6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -78,9 +80,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B34C829215D6FF100F0ABD8 /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				2B34C82A215D701000F0ABD8 /* index.html */,
+			);
+			path = Docs;
+			sourceTree = "<group>";
+		};
 		2B8D4961215D563700156FD6 = {
 			isa = PBXGroup;
 			children = (
+				2B34C829215D6FF100F0ABD8 /* Docs */,
 				2B8D496C215D563700156FD6 /* To Do List */,
 				2B8D4983215D563700156FD6 /* To Do ListTests */,
 				2B8D498E215D563700156FD6 /* To Do ListUITests */,
@@ -236,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B8D497A215D563700156FD6 /* LaunchScreen.storyboard in Resources */,
+				2B34C82B215D701000F0ABD8 /* index.html in Resources */,
 				2B8D4977215D563700156FD6 /* Assets.xcassets in Resources */,
 				2B8D4975215D563700156FD6 /* Main.storyboard in Resources */,
 			);
