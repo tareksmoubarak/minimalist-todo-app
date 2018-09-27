@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B34C827215D629C00F0ABD8 /* ArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B34C826215D629C00F0ABD8 /* ArchiveViewController.swift */; };
 		2B8D496E215D563700156FD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D496D215D563700156FD6 /* AppDelegate.swift */; };
 		2B8D4970215D563700156FD6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D496F215D563700156FD6 /* FirstViewController.swift */; };
 		2B8D4972215D563700156FD6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D4971215D563700156FD6 /* SecondViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B34C826215D629C00F0ABD8 /* ArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveViewController.swift; sourceTree = "<group>"; };
 		2B8D496A215D563700156FD6 /* To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8D496D215D563700156FD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B8D496F215D563700156FD6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				2B8D496F215D563700156FD6 /* FirstViewController.swift */,
 				2B8D4971215D563700156FD6 /* SecondViewController.swift */,
 				2B8D4973215D563700156FD6 /* Main.storyboard */,
+				2B34C826215D629C00F0ABD8 /* ArchiveViewController.swift */,
 				2B8D4976215D563700156FD6 /* Assets.xcassets */,
 				2B8D4978215D563700156FD6 /* LaunchScreen.storyboard */,
 				2B8D497B215D563700156FD6 /* Info.plist */,
@@ -262,6 +265,7 @@
 				2B8D4972215D563700156FD6 /* SecondViewController.swift in Sources */,
 				2B8D496E215D563700156FD6 /* AppDelegate.swift in Sources */,
 				2B8D4970215D563700156FD6 /* FirstViewController.swift in Sources */,
+				2B34C827215D629C00F0ABD8 /* ArchiveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
